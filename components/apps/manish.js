@@ -127,17 +127,11 @@ export const displayAboutManish = () => {
 const About = () => {
     return (
         <>
-            <div className="w-20 md:w-28 my-4 bg-transparent rounded-full overflow-hidden">
+            <div className="w-20 md:w-28 my-4 bg-white rounded-full">
                 <img 
-                    className="w-full h-full object-cover" 
-                    src="./images/logos/bitmoji.gif" 
-                    alt="Manish Ghoshal Animated Profile"
-                    style={{
-                        borderRadius: '50%',
-                        transform: 'scale(1.2)',
-                        objectFit: 'cover',
-                        objectPosition: 'center 45%'
-                    }}
+                    className="w-full h-full object-cover rounded-full" 
+                    src="./images/logos/bitmoji.png" 
+                    alt="Manish Ghoshal Profile"
                 />
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
