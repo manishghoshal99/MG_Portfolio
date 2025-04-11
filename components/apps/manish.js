@@ -139,10 +139,16 @@ const About = () => {
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm an ambitious and passionate individual on a journey to unlock the full potential of cutting-edge technologies. With a strong foundation in building deep learning and reinforcement learning based models, complemented by a multifaceted background in web development, business development, and HR experience, I am eager to contribute my skills to the ever-evolving landscape of artificial intelligence. ( Hit me up <a className='text-underline' href='mailto:manishghoshal99.py@gmail.com'><u>@manishghoshal99.py@gmail.com</u></a> :) )</li>
-                <li className=" mt-3 list-building">Throughout my career, I have had the privilege of leading and inspiring multiple teams, fostering an environment of collaboration and innovation. My analytical mindset, coupled with methodical thinking and leadership abilities, enables me to tackle complex challenges head-on and navigate through obstacles with poise.</li>
-                <li className=" mt-3 list-time">Having a genuine thirst for knowledge, I am an avid learner, constantly seeking opportunities to improve my skillset and stay at the forefront of technological advancements. Reinforcement Learning has captivated my interest, and I am dedicated to specializing in this field to make significant contributions to its growth.</li>
-                <li className=" mt-3 list-star">As a student, my career is in its early stages, but my dedication, enthusiasm, and adaptability set me on a trajectory towards achieving my professional aspirations.</li>
+                <li className=" list-pc">
+                    Welcome to my LinkedIn profile! I'm an ambitious and passionate individual on a journey to unlock the full potential of cutting-edge technologies. With a strong foundation in building deep learning and reinforcement learning based models, complemented by a multifaceted background in web development, business development, and HR experience, I am eager to contribute my skills to the ever-evolving landscape of artificial intelligence.
+                    <br /><br />
+                    Throughout my career, I have had the privilege of leading and inspiring multiple teams, fostering an environment of collaboration and innovation. My analytical mindset, coupled with methodical thinking and leadership abilities, enables me to tackle complex challenges head-on and navigate through obstacles with poise. As a proactive problem solver, I find tremendous joy in exploring uncharted territories and finding solutions that create value.
+                    <br /><br />
+                    Having a genuine thirst for knowledge, I am an avid learner, constantly seeking opportunities to improve my skillset and stay at the forefront of technological advancements. Reinforcement Learning has captivated my interest, and I am dedicated to specializing in this field to make significant contributions to its growth. As a student, my career is in its early stages, but my dedication, enthusiasm, and adaptability set me on a trajectory towards achieving my professional aspirations. ( Hit me up <a className='text-underline' href='mailto:manishghoshal99.py@gmail.com'><u>@manishghoshal99.py@gmail.com</u></a> :) )
+                </li>
+                <li className=" mt-3 list-building">I enjoy building awesome software that solve practical problems.</li>
+                <li className=" mt-3 list-time">When I am not coding my next project, I like to spend my time playing basketball, planning my next trip, jamming to music, reading books, playing games or exploring new technologies</li>
+                <li className=" mt-3 list-star">I have a diverse set of interests, and I'm always looking for new challenges and opportunities to grow.</li>
             </ul>
         </>
     )
