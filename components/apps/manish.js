@@ -132,17 +132,17 @@ const About = () => {
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
                 <div>my name is <span className="font-bold">Manish Ghoshal</span> ,</div>
-                <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">Software Developer!</span></div>
+                <div className="font-normal ml-1">I'm an <span className="text-pink-600 font-bold">AI Engineer!</span></div>
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-0"></div>
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm a <span className=" font-medium">Software Developer</span> with a passion for creating efficient and scalable applications. I specialize in full-stack development and have experience with various technologies. ( Hit me up <a className='text-underline' href='mailto:manishghoshal99.py@gmail.com'><u>@manishghoshal99.py@gmail.com</u></a> :) )</li>
-                <li className=" mt-3 list-building"> I enjoy building awesome software that solve practical problems.</li>
-                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time reading books, playing games or exploring new technologies.</li>
-                <li className=" mt-3 list-star"> And I also have interest in Machine Learning & Artificial Intelligence!</li>
+                <li className=" list-pc">I'm an ambitious and passionate individual on a journey to unlock the full potential of cutting-edge technologies. With a strong foundation in building deep learning and reinforcement learning based models, complemented by a multifaceted background in web development, business development, and HR experience, I am eager to contribute my skills to the ever-evolving landscape of artificial intelligence. ( Hit me up <a className='text-underline' href='mailto:manishghoshal99.py@gmail.com'><u>@manishghoshal99.py@gmail.com</u></a> :) )</li>
+                <li className=" mt-3 list-building">Throughout my career, I have had the privilege of leading and inspiring multiple teams, fostering an environment of collaboration and innovation. My analytical mindset, coupled with methodical thinking and leadership abilities, enables me to tackle complex challenges head-on and navigate through obstacles with poise.</li>
+                <li className=" mt-3 list-time">Having a genuine thirst for knowledge, I am an avid learner, constantly seeking opportunities to improve my skillset and stay at the forefront of technological advancements. Reinforcement Learning has captivated my interest, and I am dedicated to specializing in this field to make significant contributions to its growth.</li>
+                <li className=" mt-3 list-star">As a student, my career is in its early stages, but my dedication, enthusiasm, and adaptability set me on a trajectory towards achieving my professional aspirations.</li>
             </ul>
         </>
     )
@@ -155,21 +155,21 @@ const Education = () => {
                 <h2 className="text-2xl font-bold mb-6 text-ubt-gedit-blue">Education</h2>
                 <div className="space-y-6">
                     <div className="bg-ub-gedit-light bg-opacity-50 p-4 rounded-lg">
-                        <h3 className="text-xl font-semibold text-ubt-gedit-blue">Master of Science in Computer Science</h3>
-                        <p className="text-gray-300">University of California, Riverside</p>
-                        <p className="text-gray-400">2023 - 2025 (Expected)</p>
+                        <h3 className="text-xl font-semibold text-ubt-gedit-blue">Master of Data Science, specialization: Computational Data Science</h3>
+                        <p className="text-gray-300">University of Melbourne, Victoria, Australia</p>
+                        <p className="text-gray-400">2025 - 2027 (Expected)</p>
                         <ul className="list-disc list-inside mt-2 text-gray-300">
                             <li>GPA: 3.8/4.0</li>
-                            <li>Relevant Coursework: Advanced Algorithms, Machine Learning, Distributed Systems</li>
+                            <li>Relevant Coursework: Advanced Mathematical Statistics and Probability, Machine Learning, Distributed Systems, Big Data Analytics, Data Mining, etc.</li>
                         </ul>
                     </div>
                     <div className="bg-ub-gedit-light bg-opacity-50 p-4 rounded-lg">
-                        <h3 className="text-xl font-semibold text-ubt-gedit-blue">Bachelor of Technology in Computer Science</h3>
-                        <p className="text-gray-300">SRM Institute of Science and Technology</p>
-                        <p className="text-gray-400">2019 - 2023</p>
+                        <h3 className="text-xl font-semibold text-ubt-gedit-blue">B. Tech. in Computer Science Engineering, specialization: Artificial Intelligence and Machine Learning </h3>
+                        <p className="text-gray-300">Jain University, Bangalore, India</p>
+                        <p className="text-gray-400">2020 - 2024</p>
                         <ul className="list-disc list-inside mt-2 text-gray-300">
-                            <li>GPA: 3.9/4.0</li>
-                            <li>Relevant Coursework: Data Structures, Algorithms, Database Management, Operating Systems</li>
+                            <li>GPA: 3.62/4.0</li>
+                            <li>Relevant Coursework: Data Structures, Algorithms, Database Management, Operating Systems, Computer Networks, Computer Organization and Architecture, Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, etc.</li>
                         </ul>
                     </div>
                 </div>
@@ -189,8 +189,10 @@ const Skills = () => {
                         <ul className="list-disc list-inside text-gray-300">
                             <li>Python</li>
                             <li>Java</li>
+                            <li>C#</li>
                             <li>JavaScript/TypeScript</li>
-                            <li>C++</li>
+                            <li>HTML/CSS</li>
+                            <li>SQL</li>
                         </ul>
                     </div>
                     <div className="bg-ub-gedit-light bg-opacity-50 p-4 rounded-lg">
@@ -198,25 +200,54 @@ const Skills = () => {
                         <ul className="list-disc list-inside text-gray-300">
                             <li>React.js</li>
                             <li>Next.js</li>
+                            <li>FastAPI, Flask, ASP.NET</li>
                             <li>Node.js</li>
-                            <li>HTML5/CSS3</li>
-                        </ul>
-                    </div>
-                    <div className="bg-ub-gedit-light bg-opacity-50 p-4 rounded-lg">
-                        <h3 className="text-xl font-semibold text-ubt-gedit-blue mb-3">Databases</h3>
-                        <ul className="list-disc list-inside text-gray-300">
                             <li>MongoDB</li>
-                            <li>PostgreSQL</li>
-                            <li>MySQL</li>
+                            <li>REST APIs</li>
                         </ul>
                     </div>
                     <div className="bg-ub-gedit-light bg-opacity-50 p-4 rounded-lg">
-                        <h3 className="text-xl font-semibold text-ubt-gedit-blue mb-3">Tools & Technologies</h3>
+                        <h3 className="text-xl font-semibold text-ubt-gedit-blue mb-3">AI & Machine Learning</h3>
                         <ul className="list-disc list-inside text-gray-300">
-                            <li>Git/GitHub</li>
-                            <li>Docker</li>
-                            <li>AWS</li>
-                            <li>Linux</li>
+                            <li>Keras, TensorFlow</li>
+                            <li>HuggingFace, SpaCy</li>
+                            <li>Stable Diffusion</li>
+                            <li>Prophet</li>
+                            <li>LangGraph</li>
+                            <li>Computer Vision</li>
+                        </ul>
+                    </div>
+                    <div className="bg-ub-gedit-light bg-opacity-50 p-4 rounded-lg">
+                        <h3 className="text-xl font-semibold text-ubt-gedit-blue mb-3">LLM Technologies</h3>
+                        <ul className="list-disc list-inside text-gray-300">
+                            <li>RAG, Langchain</li>
+                            <li>ZerveAI, JinaAI</li>
+                            <li>MoE, CrewAI, Autogen</li>
+                            <li>Llava, LoRa/QLoRa</li>
+                            <li>Unsloth, Pinecone</li>
+                            <li>RunPod, Autoglon</li>
+                        </ul>
+                    </div>
+                    <div className="bg-ub-gedit-light bg-opacity-50 p-4 rounded-lg">
+                        <h3 className="text-xl font-semibold text-ubt-gedit-blue mb-3">DevOps & Tools</h3>
+                        <ul className="list-disc list-inside text-gray-300">
+                            <li>Docker, Kubernetes</li>
+                            <li>AWS, GCP</li>
+                            <li>Git, Jenkins</li>
+                            <li>Linux, Command Line</li>
+                            <li>VS Code, Visual Studio</li>
+                            <li>Tableau</li>
+                        </ul>
+                    </div>
+                    <div className="bg-ub-gedit-light bg-opacity-50 p-4 rounded-lg">
+                        <h3 className="text-xl font-semibold text-ubt-gedit-blue mb-3">Cybersecurity</h3>
+                        <ul className="list-disc list-inside text-gray-300">
+                            <li>Encryption (AES, RSA)</li>
+                            <li>Nmap, Wireshark</li>
+                            <li>Metasploit</li>
+                            <li>Snort</li>
+                            <li>VirtualBox</li>
+                            <li>Network Security</li>
                         </ul>
                     </div>
                 </div>
