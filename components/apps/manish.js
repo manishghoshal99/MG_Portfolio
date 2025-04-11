@@ -131,7 +131,7 @@ const About = () => {
                 <img className="w-full" src="./images/logos/bitmoji.png" alt="Manish Ghoshal Logo" />
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
-                <div>my name is <span className="font-bold">Manish Ghoshal</span> ,</div>
+                <div>My name is <span className="font-bold">Manish Ghoshal</span> ,</div>
                 <div className="font-normal ml-1">I'm an <span className="text-pink-600 font-bold">AI Engineer!</span></div>
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
@@ -140,7 +140,7 @@ const About = () => {
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
                 <li className=" list-pc">
-                    Welcome to my LinkedIn profile! I'm an ambitious and passionate individual on a journey to unlock the full potential of cutting-edge technologies. With a strong foundation in building deep learning and reinforcement learning based models, complemented by a multifaceted background in web development, business development, and HR experience, I am eager to contribute my skills to the ever-evolving landscape of artificial intelligence.
+                    I'm an ambitious and passionate individual on a journey to unlock the full potential of cutting-edge technologies. With a strong foundation in building deep learning and reinforcement learning based models, complemented by a multifaceted background in web development, business development, and HR experience, I am eager to contribute my skills to the ever-evolving landscape of artificial intelligence.
                     <br /><br />
                     Throughout my career, I have had the privilege of leading and inspiring multiple teams, fostering an environment of collaboration and innovation. My analytical mindset, coupled with methodical thinking and leadership abilities, enables me to tackle complex challenges head-on and navigate through obstacles with poise. As a proactive problem solver, I find tremendous joy in exploring uncharted territories and finding solutions that create value.
                     <br /><br />
